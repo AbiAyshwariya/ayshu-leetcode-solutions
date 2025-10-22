@@ -3,7 +3,6 @@ class Solution {
         int n=nums.length;
         List<List<Integer>> ans=new ArrayList<>();
         Arrays.sort(nums);
-        long targetLong=target;
         for(int i=0;i<n-3;i++){
             if(i>0 && nums[i]==nums[i-1]){
                 continue;
@@ -12,21 +11,16 @@ class Solution {
                 if(j>i+1 && nums[j]==nums[j-1]){
                     continue;
                 }
+
                 int k=j+1;
                 int l=n-1;
                 while(k<l){
                     long sum=(long)nums[i]+nums[j]+nums[k]+nums[l];
-                    if(sum<targetLong){
-                        k++;
-                    }
-                    else if(sum>target){
-                        l--;
-                    }
-                    else{
+                    if(sum==target){
+                       List<Integer> temp=new ArrayList<>();
                        ans.add(Arrays.asList(nums[i], nums[j], nums[k], nums[l]));
-                            k++;
-                            l--;
-                    
+                       k++;
+                       l--;
 
                     while(k<l && nums[k]==nums[k-1]){
                         k++;
@@ -35,7 +29,15 @@ class Solution {
                         l--;
                     }
                     }
+                    else if(sum<target){
+                        k++;
+                    }
+                    else{
+                        l--;
+                    }
+                    
                 }
+            
             }
         }
         return ans;
