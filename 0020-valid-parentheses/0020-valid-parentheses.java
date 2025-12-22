@@ -1,40 +1,46 @@
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character> s1=new Stack<>();
-        boolean result=false;
-        for(int i=0;i<s.length();i++){
-            char ch=s.charAt(i);
-            if(ch=='{' || ch=='[' || ch=='('){
-                s1.push(ch);
-            }
-            else {
-                
-                if(s1.isEmpty()){
-                    return false;
-                }
-                else{
-
-                    char ans=s1.peek();
-                  if(ans=='(' && ch==')'){
-                    s1.pop();
-                  }
-                  else if(ans=='['&& ch==']'){
-                    s1.pop();
-                  }
-                  else if(ans=='{' && ch=='}'){
-                    s1.pop();
-                  }
-                  else{
-                    return false;
-                  }
-                }
-            }
-        }
-        if(!s1.isEmpty()){
+        int n=s.length();
+        if(n%2!=0){
             return false;
         }
-        else{
-            return true;
-        }
+        Stack<Character> st=new Stack<>();
+        boolean result=false;
+        for(int i=0;i<n;i++){
+            
+            char ch=s.charAt(i);
+            if(ch=='{'||ch=='('||ch=='['){
+                st.push(ch);
+            }
+            else{
+                if(!st.isEmpty()){
+                char ans=st.peek();
+                
+                if(ans=='{' && ch=='}'){
+                    st.pop();
+                }
+                else if(ans=='(' && ch==')'){
+                    st.pop();
+                }
+                else if(ans=='[' && ch==']'){
+                    st.pop();
+                }
+                else{
+                   result=false;
+                   return result;
+                }
+                }
+                else{
+                    return false;
+                }
+            }
+            }
+            if(!st.isEmpty()){
+                result=false;
+            }
+            else{
+                result=true;
+            }
+        return result;
     }
 }
