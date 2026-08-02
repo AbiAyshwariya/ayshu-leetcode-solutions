@@ -7,14 +7,17 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -23,4 +26,5 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
+| [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 <!---LeetCode Topics End-->
