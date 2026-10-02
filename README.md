@@ -20,6 +20,7 @@ Leetcode solutions
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 | [1406-stone-game-iii](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/1406-stone-game-iii/) | Hard |
@@ -35,4 +36,16 @@ Leetcode solutions
 | [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 | [1406-stone-game-iii](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/1406-stone-game-iii/) | Hard |
 | [1563-stone-game-v](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/1563-stone-game-v/) | Hard |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+## Bracket Sequences
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
 <!---LeetCode Topics End-->
