@@ -21,6 +21,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
 | [0486-predict-the-winner](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0486-predict-the-winner/) | Medium |
 | [0877-stone-game](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0877-stone-game/) | Medium |
 | [1406-stone-game-iii](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/1406-stone-game-iii/) | Hard |
@@ -40,6 +41,7 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -48,4 +50,9 @@ Leetcode solutions
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0022-generate-parentheses/) | Medium |
+| [0032-longest-valid-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0032-longest-valid-parentheses](https://github.com/AbiAyshwariya/ayshu-leetcode-solutions/tree/main/0032-longest-valid-parentheses/) | Hard |
 <!---LeetCode Topics End-->
